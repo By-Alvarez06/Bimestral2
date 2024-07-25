@@ -11,12 +11,11 @@ public class TrajeFormal extends Traje{
     private double valorCamisa;
     private double valorCorbata;
     
-    public TrajeFormal(double valB, Cliente c, double porc, double valD, 
+    public TrajeFormal(double valB, Cliente c, double porc, 
             double valS, double valP, double valCa, double valCo){
         super(valB);
         cliente = c;
         porcentajeDescuento = porc;
-        valorDescuento = valD;
         valorSueter = valS;
         valorPantalon = valP;
         valorCamisa = valCa;

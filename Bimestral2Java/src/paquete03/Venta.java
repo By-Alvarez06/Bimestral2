@@ -51,7 +51,7 @@ public class Venta {
         }
         
         cadena = String.format("%s"
-                + "Valor a Facturar Total: %.2f", cadena, valorFacturar);
+                + "\nValor a Facturar Total: %.2f\n", cadena, valorFacturar);
         
         return cadena;
     }
